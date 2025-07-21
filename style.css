@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: brown;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+header .navbar .nav-logo .text-logo{
+    font-size: 30px;
+    color: #fff;
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+header .navbar .nav-menu{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+header .navbar .nav-menu .nav-item a{
+color: #fff;
+font-size: 20px;
+padding: 10px 18px;
+}
+
+.main-content{
+    background-color: brown;
+    min-height: 100vh;
+    
+}
+.main-content .content-details{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-between; 
+   
+
+}
+.main-content .content-details .details{
+    margin: 20px 90px;
+}
+.main-content .content-details .details .title{
+    font-size: 70px;
+    color: orange;
+    font-weight: bold;
+ 
+}
+.main-content .content-details .details .subtitle{
+margin-top: 10px;
+font-size: 27px;
+color: #fff;
+max-width: 50%;
+}
+.main-content .content-details .details  .description{
+    margin-top: 15px;
+    color: #ebcf88;
+    font-size: 30px;
+    max-width: 50%;
+}
+.main-content .content-details .buttons{
+    display: flex;
+    gap: 19px;
+    margin-top: 30px;
+}
+.main-content .content-details .button{
+   padding: 10px 26px;
+    border-radius: 150px; 
+    background: blue;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.main-content .content-details .img-wrapper{
+    max-width: 800px;
+  
+}
+
+
+
+.about{
+    background-color: rgb(142, 139, 139);
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 40px;
+}
+.about .title{
+    padding: 30px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.about .about-content{
+    display: flex;
+    padding: 60px 0 30px 100px;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+}
+.about .about-image{
+    padding: 0 10px;
+}
+.about-image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.about-content .about-text{
+    max-width: 50%;
+}
+.about-content .about-text p{
+    font-size: 30px;
+}
+
+
+.menu{
+    width: 100%;
+    text-align: center;
+
+}
+.menu .title{
+    padding: 50px;
+    text-decoration: underline red ;
+    font-size: 34px;
+
+}
+.menu .menu-content{
+  display: grid;
+ gap: 30px;
+ grid-template-columns: auto auto auto auto;
+ padding: 20px;
+  
+}
+.menu-content .menu-row{
+background-color: antiquewhite;
+box-shadow:1px 2px 6px 6px  rgb(167, 159, 159);
+text-align: center;
+align-items: center;
+ width: 100%;
+}
+.menu-row .col{
+    margin-top: 30px;
+    text-align: center;
+    width: 250px;
+    align-items: center;
+}
+.menu-row .col img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    height: 200px;
+}
+.menu-row .col  h3{
+    margin-top: 4px;
+    padding: 20px;
+   
+}
+.menu-row .col p{
+    margin-left: 30px;
+
+}
+.menu-row .col .button{
+    padding: 30px;
+}
+.menu-row .col .button button{
+ border: none;
+ color: blue;
+  background-color: rgb(248, 166, 166);
+  padding:10px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+
+
+.contact{
+    background-color: aqua;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    
+    
+}
+
+.contact  h2{
+    font-size: 50px;
+    padding-top: 40px;
+    text-decoration: underline red;
+}
+.contact-wrapper{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    padding: 50px;
+}
+.conact-form{
+    padding-left: 190px;
+    text-align: left;
+}
+.conact-form form .form-group{
+    display: block;
+    padding: 10px;
+}
+input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+}
+input:hover{
+      border: 1px solid red;
+    
+
+}
+::placeholder{
+    color: rgb(24, 23, 23);
+}
+textarea{
+    padding: 40px;
+}
+.contact-info{
+   margin-left: 100px;
+   padding: 18px;
+}
+.contact h3, p{
+    padding: 7px;
+    font-size: 34px;
+}
+.contact-info h3{
+    color: red;
+}
